@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "7a35417a22de0461",
+    "type": "split",
+    "children": [
+      {
+        "id": "be529b614b5f7280",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "220914_boj_11948.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6f3ae9fc11a6c98f",
+    "type": "split",
+    "children": [
+      {
+        "id": "acae80745c8e44b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f1c705ec6cf1e5b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c6f79537db3e200",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad0dd2165195e3f8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9b94785fffffc25c",
+    "type": "split",
+    "children": [
+      {
+        "id": "161ed5284beefc73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6a079b760d4d6f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "220914_boj_11948.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e87e4e6033a971e1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "220914_boj_11948.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6850e779972c0f47",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "aea3244ea0d3bb3d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "220914_boj_11948.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "be529b614b5f7280",
+  "lastOpenFiles": [
+    "220914_boj_11945.md.md"
+  ]
+}
