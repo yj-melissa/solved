@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "220914_boj_1991.md",
+            "file": "220915_boj_no1284.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "220914_boj_1991.md",
+                "file": "220915_boj_no1284.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "220914_boj_1991.md",
+                "file": "220915_boj_no1284.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "220914_boj_1991.md"
+                "file": "220915_boj_no1284.md"
               }
             }
           }
@@ -130,6 +130,11 @@
   },
   "active": "be529b614b5f7280",
   "lastOpenFiles": [
+    "220915_swea_5177.md",
+    "220915_swea_5176.md",
+    "220915_swea_5178.md",
+    "220915_swea_5174.md",
+    "220914_boj_1991.md",
     "220914_boj_11948.md",
     "220914_boj_11945.md.md"
   ]
