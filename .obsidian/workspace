@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "220923_boj_2609.md",
+            "file": "220924_boj_10989.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "220923_boj_2609.md",
+                "file": "220924_boj_10989.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "220923_boj_2609.md",
+                "file": "220924_boj_10989.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "220923_boj_2609.md"
+                "file": "220924_boj_10989.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "be529b614b5f7280",
   "lastOpenFiles": [
+    "220924_boj_2775.md",
+    "220923_boj_2609.md",
+    "220923_swea_4866.md",
     "220922_boj_no10828.md",
     "220921_boj_1259.md",
     "220921_boj_no15829.md",
     "220920_boj_no10250.md",
     "220920_boj_no2798.md",
     "220920_boj_no2292.md",
-    "220919_boj_no1703.md",
-    "220918_boj_1159.md",
-    "220918_boj_1598.md",
-    "220917_boj_1100.md"
+    "220919_boj_no1703.md"
   ]
 }
