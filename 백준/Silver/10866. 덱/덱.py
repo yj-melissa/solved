@@ -2,11 +2,9 @@ import sys
 
 N = int(input())        # 주어지는 명령의 수
 deque = [0] * N
-global front, end
 front = end = 0
 
 for i in range(N):      # 명령 수만큼 반복
-    # order = list(input().split())
     order = list(sys.stdin.readline().split())
     order_word = order[0]
 
