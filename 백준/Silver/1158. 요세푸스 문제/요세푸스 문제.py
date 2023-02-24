@@ -1,12 +1,21 @@
-N, K = map(int, input().split())    # N: 사람 수 K: 제거할 간격
-circle = [i for i in range(1, N+1)]
-res = '<'    # 결과 담을 문자열
-i = K-1    # 처음 제거할 사람 인덱스
-while circle:    # N명 사람이 다 제거될 때까지 반복되므로
-    res += str(circle.pop(i)) + ', '    # 사람 제거 -> 문자열에 추가
-    if len(circle) >= 1:
-        i = (i + K - 1) % len(circle)    # 원은 처음과 끝이 순회하므로
-    else:
-        i = 0
-res = res[:-2] + '>'    # 출력형식 맞춰주기용
-print(res)
+N, K = map(int, input().split())     # N : 사람 수, K(<=N) : K번째 사람 제거
+
+people = [i for i in range(1, N+1)]         # 원을 이룬 사람 수
+answer = "<"                       # 요세푸스 순열
+killed = 0                        # 사람 제거한 횟수
+now = K-1                        # 제거할 사람 위치
+
+while killed < N:
+    answer += str(people[now])
+    people.pop(now)                 # 제거한 사람은 리스트에서도 제거
+    killed += 1
+    if killed == N:
+        answer += ">"
+        break
+    now += K-1
+    while now >= (N-killed):
+        now -= (N-killed)
+
+    answer += ", "
+
+print(answer)
