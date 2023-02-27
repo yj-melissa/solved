@@ -1,40 +1,37 @@
 import sys
-N = int(sys.stdin.readline())
-stack = []
-top = -1
+
+N = int(input())
+stack = [0] * 10000    # 스택
+top = -1    # top
+
 for _ in range(N):
-    order = list(sys.stdin.readline().split())        # push는 입력으로 숫자 같이 들어오므로
+    input_order = list(sys.stdin.readline().split())    # 실행할 명령
 
-    if order[0] == 'push':
-        stack.append(order[1])
+    order = input_order[0]
+    if order == 'push':
         top += 1
-        continue
+        stack[top] = input_order[1]
 
-    elif order[0] == 'pop':
-        if top == -1 :
-            print(-1)
-        else:
-            print(stack.pop())
+    elif order == 'pop':
+        if top > -1:
             top -= 1
-        continue
-
-    if order[0] == 'size':
-        if top <= -1:
-            print(0)
+            X = stack[top + 1]
+            print(X)
         else:
-            print(top+1)
-        continue
+            print(-1)
 
-    if order[0] == 'empty':
-        if top <= -1:
+    elif order == 'size':
+        print(top + 1)
+
+    elif order == 'empty':
+        if top == -1:
             print(1)
         else:
             print(0)
-        continue
 
-    if order[0] == 'top':
-        if top <= -1:
-            print(-1)
-        else:
+    elif order == 'top':
+        if top > -1:
             print(stack[top])
-        continue
+        else:
+            print(-1)
+
