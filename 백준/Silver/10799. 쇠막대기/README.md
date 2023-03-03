@@ -1,10 +1,10 @@
-# [Silver III] 쇠막대기 - 10799 
+# [Silver II] 쇠막대기 - 10799 
 
 [문제 링크](https://www.acmicpc.net/problem/10799) 
 
 ### 성능 요약
 
-메모리: 31620 KB, 시간: 88 ms
+메모리: 31688 KB, 시간: 56 ms
 
 ### 분류
 

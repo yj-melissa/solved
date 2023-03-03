@@ -1,16 +1,17 @@
-marks = list(input())
-top = -1
+stick = input()         # 쇠막대기
+stack = []
 cnt = 0
-for i in range(len(marks)):
-    if marks[i] == '(':    # 여는 괄호라면 top + 1
-        top += 1
-    
-    else:           # 닫는 괄호일 때
-        if marks[i-1] == '(':    # 여는 괄호와 연달아 나왔다면 top(쇠막대 개수)만큼 cnt 추가
-            cnt += top
-            top -=1
-
+flag = 0            # 레이저 판별 여부
+for s in stick:
+    if s == '(':
+        stack.append('(')
+        flag = 1
+    elif s == ')':
+        if flag == 1:       # 여는 괄호와 인접한 닫는 괄호
+            flag = 0
+            stack.pop()
+            cnt += len(stack)
         else:
-            top -= 1
-            cnt += 1     # 쇠막대가 끝났을 때 개수 추가
+            stack.pop()
+            cnt += 1
 print(cnt)
