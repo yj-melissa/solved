@@ -1,17 +1,20 @@
-stick = input()         # 쇠막대기
-stack = []
-cnt = 0
-flag = 0            # 레이저 판별 여부
-for s in stick:
+sticks = input()        # 쇠막대기
+
+top = -1
+flag = 1       # 1 : 직전까지 여는 괄호, -1 : 닫는 괄호
+answer = 0
+
+for s in sticks:
     if s == '(':
-        stack.append('(')
+        top += 1
         flag = 1
-    elif s == ')':
-        if flag == 1:       # 여는 괄호와 인접한 닫는 괄호
-            flag = 0
-            stack.pop()
-            cnt += len(stack)
+
+    else:
+        top -= 1
+        if flag == 1:    # 레이저
+            answer += top + 1
         else:
-            stack.pop()
-            cnt += 1
-print(cnt)
+            answer += 1
+        flag = -1
+
+print(answer)
