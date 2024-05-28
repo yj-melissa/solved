@@ -29,8 +29,10 @@ for _ in range(M):
     s, e, t = map(int, input().split())
     graph[s].append((e, t))
 
+time_to_home = dijkstra(X, N)
+
 for i in range(1, N + 1):
     total_time[i] += dijkstra(i, N)[X]       # 집 -> X
-    total_time[i] += dijkstra(X, N)[i]       # X -> 집
+    total_time[i] += time_to_home[i]       # X -> 집
 
 print(max(total_time))
